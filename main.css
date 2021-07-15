@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --red: ##bf1a2f;
+    --white: #fff;
+    --black: #000;
+}
+
+html, body{
+    height: 100%;
+}
+
+.wrapper{
+    overflow: hidden;
+    min-width: 1310px;
+}
+
+body{
+    margin: 0;
+    font-family: Comic Sans MS;
+    background: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;   
+}
+
+.logo{
+    position: left;
+}
+
+.connection{
+position: right;
+}
+
+.WhatsApp{
+    padding-right: 70%;
+text-decoration: none;
+text-align: center;
+color: inherit;
+
+}
+
+.WhatsApp__title{
+    margin-bottom: 3px;
+}
+
+.WhatsApp__content{
+    color: black;
+    background: red;
+    font-size: 16px;
+    padding: 5px 10px;
+    
+}
+.Instagram{
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    }
+    
+    .instagram__title{
+        margin-bottom: 3px;
+    }
+.Instagram__content{
+    margin-top: 20px;
+    color: black;
+    background: red;
+    font-size: 16px;
+    padding: 5px 10px;
+    
+}
+
+
+.fade-slider{
+    height: 100%;
+    position: center;
+}
+
+/* .fade-slider__text{
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    transform: translate(-164%, -52%);
+} */
+
+.lined-text{
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__pic {
+    max-width: 120px;
+}
+
+.header__logo {
+    margin-right: 30px;
+}
+
+.products{
+    padding-top: 30px;
+}
+
+.products__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.products__item{
+    width: calc(100%/3);
+    padding: 20px;
+}
+.products__item img{
+    width: 100%;
+}
+.footer{
+    padding: 40px;
+    text-align: center;
+    background: #7b9788;
+}
